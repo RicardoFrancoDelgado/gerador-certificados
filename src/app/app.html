@@ -1,2 +1,9 @@
-<app-navbar></app-navbar>
+<!--
+TODO: Forma de usar condicional dentro de um documento HTML
+@if (exibeNavBar) {
+}
+ -->
+
+<!-- no [hidden] a lógica se inverte e assim se for true ele é hidden se for false ele aparece -->
+<app-navbar [hidden]="exibeNavBar"></app-navbar>
 <p>Hello World</p>
